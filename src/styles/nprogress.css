@@ -1,0 +1,19 @@
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 3px;
+  box-shadow: 0 0 10px #d3d3d3, 0 0 20px #a0a0a0;
+}
+
+#nprogress .peg {
+  display: none;
+}

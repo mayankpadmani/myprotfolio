@@ -1,0 +1,146 @@
+[
+  {
+    "_id": "689326fa37520165525c8aae",
+    "name": "Personal Portfolio Website",
+    "description": "A sleek, performance-optimized portfolio website designed to reflect my personal brand and showcase my work.",
+    "liveLink": "https://princemerja.me",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Framer Motion",
+      "Vercel",
+      "Node.js"
+    ],
+    "linkType": "website"
+  },
+  {
+    "_id": "689326fa37520165525c8aaf",
+    "name": "Expense Tracker App",
+    "description": "A responsive expense and income tracker that helps users manage their finances with ease.",
+    "liveLink": "https://expense-income-tracker-one.vercel.app/",
+    "techStack": [
+      "React",
+      "Vite",
+      "Supabase",
+      "Tailwind CSS",
+      "Vercel",
+      "Node.js"
+    ],
+    "linkType": "website",
+    "__v": 0
+  },
+  {
+    "_id": "689326fa37520165525c8ab0",
+    "name": "Solo Leveling Gamified To-Do App",
+    "description": "A dark-themed, anime-inspired to-do application based on the Solo Leveling universe, gamifying productivity.",
+    "liveLink": "https://todo-frontend-one-iota.vercel.app/",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Express.js",
+      "MongoDB",
+      "Node.js",
+      "Vercel"
+    ],
+    "linkType": "website",
+    "__v": 0
+  },
+  {
+    "_id": "6893274b37520165525c8ab2",
+    "name": "The Forgotten Road",
+    "description": "An atmospheric and emotionally immersive cinematic experience built in Unreal Engine 5, leveraging cutting-edge rendering technologies.",
+    "liveLink": "https://www.instagram.com/reel/CuRu9lwBv_D/?utm_source=ig_web_copy_link",
+    "techStack": [
+      "Unreal Engine 5.1.1",
+      "Quixel Megascans",
+      "Lumen",
+      "Nanite",
+      "Adobe Premiere Pro"
+    ],
+    "linkType": "instagram",
+    "__v": 0
+  },
+  {
+  "_id": "78c542de918304a67f3b1c92",
+  "name": "Skill Swap",
+  "description": "A collaborative platform where users can exchange skills, learn from each other, and grow together through real-world practice and networking, without any money.",
+  "liveLink": "https://skill-swap-lac.vercel.app/",
+  "techStack": [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Express.js",
+    "MongoDB",
+    "Node.js",
+    "Vercel"
+  ],
+  "linkType": "website",
+  "__v": 0
+},
+{
+  "_id": "bd_home_001",
+  "name": "Business Defaulters",
+  "description": "A web application that allows users to verify GST registration, check business credibility, and assess risk before engaging with any Indian business.",
+  "liveLink": "https://businessdefaulters.com/home",
+  "techStack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Vercel",
+    "Express.js",
+    "MongoDB"
+  ],
+  "linkType": "website",
+  "__v": 0
+},
+{
+  "_id": "bd_gyan_001",
+  "name": "Gyan Bot",
+  "description": "A Telegram-based academic assistant that delivers university PDFs and study resources for CHARUSAT students. Built with Node.js and webhook integrations, the bot automates document access and provides a streamlined academic support experience. Deployed on Vercel for fast performance and reliable availability.",
+  "liveLink": "https://web.telegram.org/k/#@Gyan_PR_bot",
+  "techStack": [
+    "Node.js",
+    "Express.js",
+    "Webhooks",
+    "Vercel"
+  ],
+  "linkType": "bot",
+  "__v": 0
+},
+{
+  "_id": "gd_coincollector_001",
+  "name": "Coin Collector",
+  "description": "A casual 2D arcade-style game developed using the Godot Engine where players collect coins while navigating obstacles and challenges. The game focuses on responsive controls, simple mechanics, and progressively engaging gameplay, showcasing fundamental game design, level logic, and player interaction systems.",
+  "liveLink": "https://prince-merja-1.itch.io/coincollector",
+  "techStack": [
+    "Godot Engine",
+    "GDScript",
+    "2D Game Design",
+    "Game Physics",
+    "UI/UX for Games"
+  ],
+  "linkType": "game",
+  "__v": 0
+},
+  {
+  "_id": "gd_gitcraft_server_001",
+  "name": "GitCraft Server",
+  "description": "A backend server project designed to manage and support a multiplayer Minecraft-based environment. The project focuses on server-side logic, networking, player management, and game-state handling, demonstrating backend development principles, real-time interaction, and scalable game server architecture.",
+  "liveLink": "https://github.com/princemerja1/GitCraft-Server",
+  "techStack": [
+    "Java",
+    "Minecraft Server Development",
+    "Backend Architecture",
+    "Networking",
+    "Multiplayer Systems",
+    "Game Server Logic"
+  ],
+  "linkType": "github",
+  "__v": 0
+}
+
+
+
+
+]

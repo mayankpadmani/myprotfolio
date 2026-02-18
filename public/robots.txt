@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://princemerja.vercel.app
+
+# Sitemaps
+Sitemap: https://princemerja.vercel.app/sitemap.xml
