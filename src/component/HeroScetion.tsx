@@ -57,12 +57,18 @@ console.log("Projects fetched:", projects.length);
           className="space-y-6 md:pr-10 text-center md:text-left"
         >
           <p className="text-xl md:text-2xl text-black">Hey there, I'm</p>
-          <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-black to-black-300 text-transparent bg-clip-text">
-            Prince Merja
-          </h1>
+              <h1 className="text-4xl md:text-6xl font-bold text-black
+t bg-clip-text">
+  Mayank Padmani
+</h1>
+
+
+
+
+
           <p className="text-black text-base md:text-lg leading-relaxed">
-            Game Developer, VFX/CGI Artist & Full-Stack Developer shaping immersive digital worlds.
-            Combining cinematic visual art with robust code to deliver interactive, high-performance experiences.
+            AI Developer, Machine Learning Engineer & Full-Stack Developer building intelligent digital systems. 
+            Blending smart automation with scalable web architecture to create high-performance, real-world solutions.
           </p>
 
           {/* Tags */}
@@ -99,7 +105,7 @@ console.log("Projects fetched:", projects.length);
         /> */}
           <Image
             src="/hero.png"
-            alt="prince"
+            alt="Mayank Padmani"
             width={400}
             height={400}
             priority

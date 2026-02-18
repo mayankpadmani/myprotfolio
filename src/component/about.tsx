@@ -25,18 +25,20 @@ export default function About() {
             </h2>
             
             <p className="text-black-300 text-[1.05rem] leading-8 tracking-wide max-w-[90%] md:max-w-full mx-auto md:mx-0">
-              I'm <span className="font-semibold text-black">Prince Merja</span> — a Game Developer, VFX/CGI Artist & Full-Stack Developer driven by design, technology, and storytelling.
-              Over the years, I’ve blended real-time 3D, cinematic visuals, and modern web development to craft experiences that look stunning and run seamlessly.
-            </p>
+  I'm <span className="font-semibold text-black">Mayank Padmani</span> — an AI Systems Builder, Machine Learning Enthusiast & Full-Stack Web Developer driven by innovation, automation, and intelligent design.
+  Over the years, I’ve blended artificial intelligence, data-driven systems, and modern web development to build applications that are smart, scalable, and user-focused.
+</p>
 
-            <p className="text-black-300 text-[1.05rem] leading-8 tracking-wide max-w-[90%] md:max-w-full mx-auto md:mx-0">
-              From immersive game levels built in <span className="text-black font-semibold">Unreal Engine</span>, to photorealistic CGI rendered in Blender, to robust, scalable web apps using React, Next.js, and Node.js — I design, develop, and refine every detail.
-              My work isn't about chasing trends; it's about pushing creative and technical boundaries to deliver interactive worlds, dynamic tools, and visual stories that resonate.
-            </p>
+<p className="text-black-300 text-[1.05rem] leading-8 tracking-wide max-w-[90%] md:max-w-full mx-auto md:mx-0">
+  From developing intelligent AI agents and training machine learning models, to building responsive web applications using <span className="text-black font-semibold">React</span>, <span className="text-black font-semibold">Next.js</span>, and <span className="text-black font-semibold">Node.js</span> — I design, develop, and optimize every layer of the system.
+  My work isn’t about following trends; it’s about engineering smart solutions that solve real-world problems efficiently and effectively.
+</p>
 
-            <p className="text-black-300 text-[1.05rem] leading-8 tracking-wide max-w-[90%] md:max-w-full mx-auto md:mx-0">
-              My mission is simple: <span className="italic text-black">create, iterate, and inspire</span> — whether it's building a cinematic pipeline, developing a personal project, or collaborating under brands like Cinematryx Studio and RoyalVerse.
-            </p>
+<p className="text-black-300 text-[1.05rem] leading-8 tracking-wide max-w-[90%] md:max-w-full mx-auto md:mx-0">
+  <span className="font-semibold text-black">What drives me:</span> 
+  <span className="italic text-black">Building intelligent, data-driven systems and high-performance web applications that merge automation, usability, and smart design.</span>
+</p>
+
 
             {/* Skills */}
             <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
@@ -64,7 +66,7 @@ export default function About() {
           >
             <div className="text-black-300 text-lg md:text-xl italic p-8 rounded-2xl border border-black/10 bg-black/5 backdrop-blur-xl shadow-[0_0_25px_rgba(255,255,255,0.05)] max-w-md leading-relaxed">
               "Art and code aren’t separate — together they shape worlds, tell stories, and spark imagination. Every pixel, every frame, every line matters."
-              <span className="mt-4 block text-right text-black font-semibold">— Prince Merja</span>
+              <span className="mt-4 block text-right text-black font-semibold">— Mayank Padmani</span>
             </div>
           </motion.div>
         </div>

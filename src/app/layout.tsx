@@ -10,12 +10,12 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Prince Merja",
+  title: "Mayank Padmani",
   description:
-    "Explore the personal portfolio of Prince Merja, a game developer, photo editor, video editor, VFX/CGI artist, and programmer.",
+    "Explore the personal portfolio of Mayank Padmani, a game developer, photo editor, video editor, VFX/CGI artist, and programmer.",
   keywords: [
     "P2 Vortex",
-    "Prince Merja",
+    "Mayank Padmani",
     "personal portfolio",
     "game developer",
     "CGI artist",
@@ -26,16 +26,16 @@ export const metadata: Metadata = {
     "Unreal Engine developer",
     "3D modeling portfolio",
   ],
-  authors: [{ name: "Prince Merja" }],
+  authors: [{ name: "Mayank Padmani" }],
   verification: {
     google: "nw3QmgKz104UjN3gtyJ-wArZ3OflW3SsQP5KcrbnXi4",
   },
   openGraph: {
-    title: "Prince Merja",
+    title: "Mayank Padmani",
     description:
-      "Explore the personal portfolio of Prince Merja, a game developer, photo editor, video editor, VFX/CGI artist, and programmer.",
+      "Explore the personal portfolio of Mayank Padmani, a game developer, photo editor, video editor, VFX/CGI artist, and programmer.",
     url: "https://princemerja.me",
-    siteName: "Prince Merja Portfolio",
+    siteName: "Mayank Padmani Portfolio",
     type: "website",
   },
   alternates: {

@@ -127,7 +127,7 @@
   "_id": "gd_gitcraft_server_001",
   "name": "GitCraft Server",
   "description": "A backend server project designed to manage and support a multiplayer Minecraft-based environment. The project focuses on server-side logic, networking, player management, and game-state handling, demonstrating backend development principles, real-time interaction, and scalable game server architecture.",
-  "liveLink": "https://github.com/princemerja1/GitCraft-Server",
+  "liveLink": "https://github.com/Mayankpadmani29/GitCraft-Server",
   "techStack": [
     "Java",
     "Minecraft Server Development",

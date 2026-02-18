@@ -86,9 +86,9 @@ export default function Skills() {
           viewport={{ once: true }}
           className="space-y-6"
         >
-          <h3 className="text-2xl font-semibold text-center bg-gradient-to-r from-white to-black text-transparent bg-clip-text">
+          <h1 className="text-2xl font-semibold text-center bg-gradient-to-r from-black to-black/100 text-transparent bg-clip-text">
             Web Development
-          </h3>
+          </h1>
           <div className="flex flex-wrap justify-center gap-4">
             {webDevSkills.map((skill) => (
               <motion.span

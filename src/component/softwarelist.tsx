@@ -12,6 +12,8 @@ import {
   SiAdobeaftereffects,
   SiAdobephotoshop,
   SiNuke,
+  SiFastapi,
+  SiPython,
 } from "react-icons/si";
 import React from "react";
 
@@ -26,6 +28,8 @@ const categories = [
       { name: "Vite", icon: SiVite },
       { name: "Tailwind CSS", icon: SiTailwindcss },
       { name: "Vercel", icon: SiVercel },
+      { name: "FastAPI", icon: SiFastapi },
+      { name: "Python", icon: SiPython },
     ],
   },
 ];
@@ -34,15 +38,15 @@ export default function SoftwareList() {
   return (
     <section className="w-full px-6 py-20 text-black">
       <div className="max-w-6xl mx-auto">
-        <motion.h2
+        {/*<motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-black to-black-black text-transparent bg-clip-text"
         >
-          Software I Use
-        </motion.h2>
+    
+        </motion.h2>*/}
 
         <div className="space-y-16">
           {categories.map((category, catIndex) => (

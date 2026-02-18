@@ -11,8 +11,8 @@ export default function Footer() {
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
       
       {/* Name & Copyright */}
-      <div className="text-black text-xs md:text-sm">
-        © {new Date().getFullYear()} <span className="text-white font-medium">Prince Merja</span> — All rights reserved.
+      <div className="text-white text-xs md:text-sm">
+        © {new Date().getFullYear()} <span className="text-white font-medium">Mayank Padmani</span> — All rights reserved.
       </div>
 
       {/* Quick Navigation */}
@@ -27,7 +27,7 @@ export default function Footer() {
       {/* Social Links */}
       <div className="flex gap-3 text-black text-lg">
         <a
-          href="https://www.instagram.com/prince_merja_.1/"
+          href="https://www.instagram.com/mr._padmani_"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition-all"
@@ -35,7 +35,7 @@ export default function Footer() {
           <FaInstagram />
         </a>
         <a
-          href="https://www.linkedin.com/in/prince-merja-26532b2a3/"
+          href="www.linkedin.com/in/padmani-mayank-402a66373"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition-all"
@@ -43,7 +43,7 @@ export default function Footer() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/princemerja1"
+          href="https://github.com/Mayankpadmani29"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition-all"

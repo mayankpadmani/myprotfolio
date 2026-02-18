@@ -51,7 +51,7 @@ export default function Contact() {
         transition={{ duration: 0.7 }}
         className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-black via-black-300 to-black text-transparent bg-clip-text"
       >
-        Let’s Create Cinematic & Digital Experiences Together
+        Let’s Build Intelligent Digital Experiences Together
       </motion.h2>
 
       <motion.p
@@ -59,9 +59,9 @@ export default function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
-        className="text-black-300 mb-12 text-base md:text-lg max-w-2xl mx-auto"
+        className="text-black-300 mb-12 text-base md:text-lg max-w-2x1.8 mx-auto"
       >
-        Whether it’s a game, a VFX-driven story, or a full-stack web solution — I’m here to turn creative ideas into immersive digital realities.
+        Whether it’s an AI-powered system, a machine learning model, or a full-stack web application , I’m here to transform complex ideas into intelligent,scalable digital solutions.
       </motion.p>
 
       <motion.form
@@ -147,7 +147,7 @@ export default function Contact() {
           <FaLinkedin /> LinkedIn
         </a>
         <a
-          href="https://github.com/princemerja1"
+          href="https://github.com/Mayankpadmani29"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 hover:text-white transition"
