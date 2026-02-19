@@ -127,14 +127,14 @@ export default function Contact() {
           href="https://www.instagram.com/mr._padmani_"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 
-             hover:bg-gradient-to-r 
-             hover:from-red-500 
-             hover:via-blue-500 
-             hover:to-yellow-400 
-             hover:bg-clip-text 
-             hover:text-transparent 
-             transition duration-300"
+          className="flex items-center gap-2 px-4 py-2 rounded-lg
+           hover:bg-gradient-to-r 
+           hover:from-pink-500 
+           hover:via-red-500 
+           hover:to-yellow-500 
+           hover:text-white 
+           transition duration-300"
+
         >
           <FaInstagram /> Instagram
         </a>
@@ -142,18 +142,25 @@ export default function Contact() {
           href="https://www"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:text-blue-500 transition"
+          className="flex items-center gap-1 px-4 py-2 rounded-lg
+             hover:bg-[#0077B5] 
+             hover:text-white 
+             transition duration-300"
         >
-          <FaLinkedin /> LinkedIn
+          <FaLinkedin />LinkedIn
         </a>
         <a
-          href="https://github.com/Mayankpadmani29"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:text-white transition"
-        >
-          <FaGithub /> GitHub
-        </a>
+  href="https://github.com/Mayankpadmani29"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-4 py-2 rounded-lg
+             hover:bg-black 
+             hover:text-white 
+             transition duration-300"
+>
+  <FaGithub /> GitHub
+</a>
+
       </motion.div>
     </div>
   </motion.section>

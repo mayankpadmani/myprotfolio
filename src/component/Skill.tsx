@@ -94,7 +94,7 @@ export default function Skills() {
               <motion.span
                 key={skill}
                 variants={itemVariants}
-                className="px-5 py-2 rounded-full bg-white/10 text-black-200 text-sm md:text-base font-medium shadow-[0_0_12px_rgba(255,255,255,0.15)] backdrop-blur-sm hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition duration-300"
+                className="px-5 py-2 rounded-full bg-white/10 text-black-200 text-sm md:text-base font-medium shadow-[0_0_12px_rgba(255,255,255,0.15)] backdrop-blur-sm hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] border border-black/10 rounded-2xl p-6  transition-shadow cursor-pointertransition duration-300"
               >
                 {skill}
               </motion.span>
