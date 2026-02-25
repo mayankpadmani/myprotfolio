@@ -27,7 +27,7 @@ export default function HomePage() {
         <meta property="og:url" content="https://mayankpadmani.me" />
         <meta property="og:site_name" content="Mayank Padmani Portfolio" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/hero.png" />
+        <meta property="og:image" content="/photo1.png" />
         <meta property="og:locale" content="en_IN" />
 
         {/* Twitter Card */}

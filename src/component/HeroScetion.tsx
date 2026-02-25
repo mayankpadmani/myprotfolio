@@ -104,7 +104,7 @@ t bg-clip-text">
           priority
         /> */}
           <Image
-            src="/hero.png"
+            src="/photo1.png"
             alt="Mayank Padmani"
             width={400}
             height={400}

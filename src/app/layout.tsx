@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/hero.png"  />
+        <link rel="icon" href="/photo1.png"  />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <RouteLoader/>

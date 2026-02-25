@@ -29,7 +29,7 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
         {/* Logo */}
         <h1 className="text-3xl font-extrabold text-black tracking-tight">
-          <Image src="/hero.png" alt="prince" height={50} width={50}/>
+          <Image src="/photo1.png" alt="prince" height={50} width={50}/>
         </h1>
 
         {/* Desktop Nav */}
