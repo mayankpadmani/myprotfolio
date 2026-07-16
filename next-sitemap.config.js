@@ -1,12 +1,14 @@
 /** @type {import('next-sitemap').IConfig} */
+const siteUrl = 'https://www.mayankpadmani.me';
+
 module.exports = {
-  siteUrl: 'https://www.mayankpadmani.me',
+  siteUrl,
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ['/api/*'],
   robotsTxtOptions: {
     policies: [{ userAgent: '*', allow: '/' }],
-    additionalSitemaps: ['https://www.mayankpadmani.me/sitemap.xml'],
+    additionalSitemaps: [`${siteUrl}/sitemap.xml`],
   },
 };
     
