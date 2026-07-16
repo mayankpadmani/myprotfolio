@@ -9,6 +9,11 @@ import Nav from "@/component/Nav";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 const siteUrl = "https://www.mayankpadmani.me";
+const socialProfiles = [
+  "https://www.linkedin.com/in/padmani-mayank-402a66373",
+  "https://github.com/mayankpadmani",
+  "https://github.com/Mayankpadmani29",
+];
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -21,6 +26,10 @@ export const metadata: Metadata = {
     "padmani mayank",
     "mayank web developer",
     "mayank padmani mern stack developer",
+    "LinkedIn profile",
+    "GitHub profile",
+    "Mayank Padmani LinkedIn",
+    "Mayank Padmani GitHub",
     "Python developer",
     "Python freelancer",
     "freelance Python developer",
@@ -106,6 +115,26 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/photo1.png"  />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Mayank Padmani",
+              url: siteUrl,
+              sameAs: socialProfiles,
+              jobTitle: [
+                "Python Developer",
+                "Full Stack Developer",
+                "MERN Stack Developer",
+                "Web Developer",
+                "Technology Consultant",
+              ],
+              areaServed: ["Anand", "Surat", "Nadiad", "India"],
+            }),
+          }}
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <RouteLoader/>
