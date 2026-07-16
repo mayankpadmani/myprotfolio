@@ -24,7 +24,7 @@ export default function HomePage() {
         {/* Open Graph */}
         <meta property="og:title" content="Mayank Padmani | AI Developer, Machine Learning Engineer & Full-Stack Developer" />
         <meta property="og:description" content="Explore projects and creative work by Mayank Padmani blending code & visual art." />
-        <meta property="og:url" content="https://mayankpadmani.me" />
+        <meta property="og:url" content="https://www.mayankpadmani.me" />
         <meta property="og:site_name" content="Mayank Padmani Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/photo1.png" />

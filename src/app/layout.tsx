@@ -34,12 +34,12 @@ export const metadata: Metadata = {
     title: "Mayank Padmani",
     description:
       "Explore the personal portfolio of Mayank Padmani, a game developer, photo editor, video editor, VFX/CGI artist, and programmer.",
-    url: "https://princemerja.me",
+    url: "https://www.mayankpadmani.me",
     siteName: "Mayank Padmani Portfolio",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.princemerja.me",
+    canonical: "https://www.mayankpadmani.me",
   },
 };
 
