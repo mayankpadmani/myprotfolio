@@ -124,20 +124,21 @@
   "__v": 0
 },
   {
-  "_id": "gd_gitcraft_server_001",
-  "name": "GitCraft Server",
-  "description": "A backend server project designed to manage and support a multiplayer Minecraft-based environment. The project focuses on server-side logic, networking, player management, and game-state handling, demonstrating backend development principles, real-time interaction, and scalable game server architecture.",
-  "liveLink": "https://github.com/Mayankpadmani29/GitCraft-Server",
+  "_id": "rentaledge_001",
+  "name": "RentEase ERP",
+  "description": "A full-stack ERP-based rental management platform built to streamline rental business operations. The system includes three role-based login panels (Admin, Vendor, and Customer), enabling secure access and management. It also features a customer-facing e-commerce platform where users can browse and rent products online. The backend is built with Express.js, handling authentication, role-based authorization, product management, order processing, and API services.",
+  "liveLink": "https://github.com/Mayankpadmani29/rentalmanagment",
+  "linkType": "github", 
   "techStack": [
-    "Java",
-    "Minecraft Server Development",
-    "Backend Architecture",
-    "Networking",
-    "Multiplayer Systems",
-    "Game Server Logic"
-  ],
-  "linkType": "github",
-  "__v": 0
+    "Node.js",
+    "Express.js",
+    "JavaScript",
+    "REST API",
+    "Role-Based Authentication",
+    "ERP System",
+    "E-commerce",
+    "Backend Development"
+  ]
 }
 
 
