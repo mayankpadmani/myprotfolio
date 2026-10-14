@@ -110,6 +110,29 @@
     "E-commerce",
     "Backend Development"
   ]
+},
+
+  {
+  "_id": "vsc_01",
+  "name": "BigO Buddy",
+  "description": "A Visual Studio Code extension that analyzes time and space complexity, detects potential performance bottlenecks, and helps developers optimize their code.",
+  "liveLink": "",
+  "linkType": "github",
+  "techStack": [
+    "TypeScript",
+    "Node.js",
+    "VS Code Extension API",
+    "Tree-sitter",
+    "Abstract Syntax Tree (AST)",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Mocha",
+    "ESLint",
+    "Git",
+    "GitHub",
+    "VSCE"
+  ]
 }
 
 
