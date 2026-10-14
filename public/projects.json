@@ -112,7 +112,7 @@
   ]
 },
 
-  {
+{
   "_id": "vsc_01",
   "name": "BigO Buddy",
   "description": "A Visual Studio Code extension that analyzes time and space complexity, detects potential performance bottlenecks, and helps developers optimize their code.",
