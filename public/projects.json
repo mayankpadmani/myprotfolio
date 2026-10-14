@@ -46,21 +46,7 @@
     "linkType": "website",
     "__v": 0
   },
-  {
-    "_id": "6893274b37520165525c8ab2",
-    "name": "The Forgotten Road",
-    "description": "An atmospheric and emotionally immersive cinematic experience built in Unreal Engine 5, leveraging cutting-edge rendering technologies.",
-    "liveLink": "https://www.instagram.com/reel/CuRu9lwBv_D/?utm_source=ig_web_copy_link",
-    "techStack": [
-      "Unreal Engine 5.1.1",
-      "Quixel Megascans",
-      "Lumen",
-      "Nanite",
-      "Adobe Premiere Pro"
-    ],
-    "linkType": "instagram",
-    "__v": 0
-  },
+  
   {
   "_id": "78c542de918304a67f3b1c92",
   "name": "Skill Swap",
@@ -106,21 +92,6 @@
     "Vercel"
   ],
   "linkType": "bot",
-  "__v": 0
-},
-{
-  "_id": "gd_coincollector_001",
-  "name": "Coin Collector",
-  "description": "A casual 2D arcade-style game developed using the Godot Engine where players collect coins while navigating obstacles and challenges. The game focuses on responsive controls, simple mechanics, and progressively engaging gameplay, showcasing fundamental game design, level logic, and player interaction systems.",
-  "liveLink": "https://prince-merja-1.itch.io/coincollector",
-  "techStack": [
-    "Godot Engine",
-    "GDScript",
-    "2D Game Design",
-    "Game Physics",
-    "UI/UX for Games"
-  ],
-  "linkType": "game",
   "__v": 0
 },
   {
