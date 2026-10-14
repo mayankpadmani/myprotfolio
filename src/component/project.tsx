@@ -56,7 +56,7 @@ const allVisible = visibleCount >= projects.length;
   return (
     <section
       id="projects"
-      className="w-full px-6 py-20 flex flex-col justify-center items-center text-black"
+      className="w-full px-6 py-20 flex flex-col justify-center items-center text-white"
     >
       <div className="max-w-6xl w-full">
         {/* Heading */}
@@ -65,7 +65,7 @@ const allVisible = visibleCount >= projects.length;
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-black to-black/100 text-transparent bg-clip-text"
+          className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-white via-gray-100 to-gray-400 text-transparent bg-clip-text"
         >
           Featured Projects
         </motion.h2>
@@ -86,27 +86,27 @@ const allVisible = visibleCount >= projects.length;
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.2, duration: 0.7 }}
                 viewport={{ once: true }}
-                className="h-full flex flex-col justify-between bg-black/5 backdrop-blur-xl border border-black/10 rounded-2xl p-6  transition-shadow cursor-pointer"
+                className="h-full flex flex-col justify-between bg-white/[0.04] backdrop-blur-xl border border-white/10 hover:border-white/30 rounded-2xl p-6 transition-all hover:bg-white/[0.07] hover:shadow-[0_0_25px_rgba(255,255,255,0.06)] cursor-pointer"
               >
                 <div>
-                  <h3 className="text-xl font-semibold text-black-200 mb-3 group-hover:underline">
+                  <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors">
                     {project.name}
                   </h3>
-                  <p className="text-sm text-black mb-4 line-clamp-3">
+                  <p className="text-sm text-gray-300 mb-4 line-clamp-3 leading-relaxed">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech, techIndex) => (
                       <span
                         key={`${project.name}-${tech}-${techIndex}`}
-                        className="text-xs px-3 py-1 bg-white/10 border border-white/20 text-black-300 rounded-full"
+                        className="text-xs px-3 py-1 bg-white/10 border border-white/15 text-gray-200 rounded-full"
                       >
                         {tech}
                       </span>
                     ))}
                   </div>
                 </div>
-                <div className="flex gap-2 items-center mt-auto text-sm text-black-300">
+                <div className="flex gap-2 items-center mt-auto text-sm text-gray-400 group-hover:text-white transition-colors">
                   {project.type === "website" && <Globe className="w-4 h-4" />}
                   {project.type === "instagram" && <Instagram className="w-4 h-4" />}
                   {project.type === "youtube" && <Youtube className="w-4 h-4" />}
@@ -119,15 +119,12 @@ const allVisible = visibleCount >= projects.length;
                     {project.type === "youtube" && "YouTube"}
                     {project.type === "bot" && "Bot"}
                     {project.type === "github" && "Github"}
-
                   </span>
                 </div>
               </motion.div>
             </a>
           ))}
         </div>
-
-
 
         {/* Show More / Show Less Button */}
         {projects.length > 4 && (
@@ -143,7 +140,7 @@ const allVisible = visibleCount >= projects.length;
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="px-6 py-2 text-sm flex items-center gap-2 bg-white/10 text-black border border-white/20 rounded-full hover:bg-white/20 transition"
+              className="px-6 py-2.5 text-sm flex items-center gap-2 bg-white/10 text-white border border-white/20 rounded-full hover:bg-white/20 transition cursor-pointer"
             >
               {allVisible ? (
                 <>

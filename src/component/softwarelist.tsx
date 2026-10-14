@@ -36,18 +36,8 @@ const categories = [
 
 export default function SoftwareList() {
   return (
-    <section className="w-full px-6 py-20 text-black">
+    <section className="w-full px-6 py-20 text-white">
       <div className="max-w-6xl mx-auto">
-        {/*<motion.h2
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-black to-black-black text-transparent bg-clip-text"
-        >
-    
-        </motion.h2>*/}
-
         <div className="space-y-16">
           {categories.map((category, catIndex) => (
             <motion.div
@@ -57,7 +47,7 @@ export default function SoftwareList() {
               transition={{ duration: 0.6, delay: catIndex * 0.2 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-xl font-semibold mb-8 text-black-300 text-center">
+              <h3 className="text-xl font-semibold mb-8 text-gray-300 text-center">
                 {category.title}
               </h3>
               <div className="flex flex-wrap justify-center gap-10">
@@ -67,12 +57,12 @@ export default function SoftwareList() {
                     <motion.div
                       key={software.name}
                       whileHover={{ scale: 1.08 }}
-                      className="flex flex-col items-center space-y-3"
+                      className="flex flex-col items-center space-y-3 group cursor-pointer"
                     >
-                      <div className="flex items-center justify-center w-20 h-20 text-black text-7xl">
-                        <Icon size={80} />
+                      <div className="flex items-center justify-center w-20 h-20 text-gray-300 group-hover:text-white transition-colors">
+                        <Icon size={64} />
                       </div>
-                      <p className="text-black-300 text-sm">{software.name}</p>
+                      <p className="text-gray-400 group-hover:text-gray-200 text-sm transition-colors">{software.name}</p>
                     </motion.div>
                   );
                 })}

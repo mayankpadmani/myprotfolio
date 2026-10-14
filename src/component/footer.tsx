@@ -11,13 +11,13 @@ export default function Footer() {
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
       
       {/* Name & Copyright */}
-      <div className="text-white text-xs md:text-sm">
+      <div className="text-gray-400 text-xs md:text-sm">
         © {new Date().getFullYear()} <span className="text-white font-medium">Mayank Padmani</span> — All rights reserved.
       </div>
 
       {/* Quick Navigation */}
-      <div className="flex gap-4 text-black text-xs md:text-sm">
-        <a href="#hero" className="hover:text-white transition-all">Home</a>
+      <div className="flex gap-4 text-gray-400 text-xs md:text-sm">
+        <a href="#home" className="hover:text-white transition-all">Home</a>
         <a href="#about" className="hover:text-white transition-all">About</a>
         <a href="#skills" className="hover:text-white transition-all">Skills</a>
         <a href="#projects" className="hover:text-white transition-all">Projects</a>
@@ -25,20 +25,22 @@ export default function Footer() {
       </div>
 
       {/* Social Links */}
-      <div className="flex gap-3 text-black text-lg">
+      <div className="flex gap-4 text-gray-400 text-lg">
         <a
           href="https://www.instagram.com/mr._padmani_"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition-all"
+          aria-label="Instagram"
         >
           <FaInstagram />
         </a>
         <a
-          href="www.linkedin.com/in/padmani-mayank-402a66373"
+          href="https://www.linkedin.com/in/padmani-mayank-402a66373"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition-all"
+          aria-label="LinkedIn"
         >
           <FaLinkedin />
         </a>
@@ -47,6 +49,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition-all"
+          aria-label="GitHub"
         >
           <FaGithub />
         </a>

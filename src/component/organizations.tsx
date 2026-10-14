@@ -40,7 +40,7 @@ export default function Organizations() {
                 <h1 className="text-4xl sm:text-5xl font-bold mb-4">
                     Cinematryx Studio
                 </h1>
-                <p className="max-w-2xl text-lg sm:text-xl mb-6 text-black-300">
+                <p className="max-w-2xl text-lg sm:text-xl mb-6 text-gray-300">
                     Cinematryx is a high-end VFX and CGI powerhouse fusing cinematic
                     storytelling with real-time workflows. From immersive cutscenes to
                     virtual worlds, we deliver photoreal magic with technical precision.
@@ -59,7 +59,7 @@ export default function Organizations() {
                         <motion.span
                             key={tag}
                             whileHover={{ scale: 1.1 }}
-                            className="inline-flex items-center px-5 py-2 rounded-full border border-white bg-white/10 text-black-200 text-sm md:text-base font-medium shadow-[0_0_10px_rgba(255,255,255,0.3)] backdrop-blur-sm transition duration-300"
+                            className="inline-flex items-center px-5 py-2 rounded-full border border-white/20 bg-white/10 text-gray-200 text-sm md:text-base font-medium shadow-[0_0_10px_rgba(255,255,255,0.1)] backdrop-blur-sm transition duration-300"
                         >
                             {tag}
                         </motion.span>
@@ -67,7 +67,7 @@ export default function Organizations() {
                 </div>
 
                 {/* Extra Info */}
-                <div className="text-black max-w-2xl text-sm md:text-base space-y-2 mb-6">
+                <div className="text-gray-300 max-w-2xl text-sm md:text-base space-y-2 mb-6">
                     <p>
                         <strong>Mission:</strong> Empower creators with stunning visuals
                         using next-gen real-time pipelines.
@@ -86,7 +86,7 @@ export default function Organizations() {
                     href="https://www.instagram.com/cinematryx.studio/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-5 py-2  rounded-xl text-black-200 font-semibold tracking-wide "
+                    className="inline-flex items-center gap-2 px-5 py-2 rounded-xl text-white font-semibold tracking-wide border border-white/20 bg-white/5 hover:bg-white/10 transition"
                     whileHover={{ scale: 1.07 }}
                     whileTap={{ scale: 0.95 }}
                     aria-label="Visit Cinematryx Studio on Instagram"
@@ -115,7 +115,7 @@ export default function Organizations() {
 
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">RoyalVerse</h1>
 
-        <p className="max-w-2xl text-lg sm:text-xl mb-6 text-black-300">
+        <p className="max-w-2xl text-lg sm:text-xl mb-6 text-gray-300">
             RoyalVerse is a futuristic tech lab where creativity meets code. We
             design gamified ecosystems, AI tools, and web platforms for tomorrow’s
             digital creators and worldbuilders.
@@ -133,14 +133,14 @@ export default function Organizations() {
                 <motion.span
                     key={tag}
                     whileHover={{ scale: 1.1 }}
-                    className="inline-flex items-center px-5 py-2 rounded-full border border-white bg-white/10 text-black-200 text-sm md:text-base font-medium shadow-[0_0_10px_rgba(255,255,255,0.3)] backdrop-blur-sm transition duration-300"
+                    className="inline-flex items-center px-5 py-2 rounded-full border border-white/20 bg-white/10 text-gray-200 text-sm md:text-base font-medium shadow-[0_0_10px_rgba(255,255,255,0.1)] backdrop-blur-sm transition duration-300"
                 >
                     {tag}
                 </motion.span>
             ))}
         </div>
 
-        <div className="text-black max-w-2xl text-sm md:text-base space-y-2 mb-6">
+        <div className="text-gray-300 max-w-2xl text-sm md:text-base space-y-2 mb-6">
             <p><strong>Mission:</strong> Empower young developers and artists.</p>
             <p><strong>What We Do:</strong> Games, full-stack tools, AI solutions.</p>
             <p><strong>Vision:</strong> One unified creative platform.</p>

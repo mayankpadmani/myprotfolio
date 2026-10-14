@@ -2,5 +2,8 @@
 User-agent: *
 Allow: /
 
+# Host
+Host: https://www.mayankpadmani.me
+
 # Sitemaps
 Sitemap: https://www.mayankpadmani.me/sitemap.xml

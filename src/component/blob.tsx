@@ -88,7 +88,7 @@ export default function BackgroundBlobs() {
   }, []);
 
   return (
-    <div className="fixed inset-0 bg-white -z-10 overflow-hidden pointer-events-none">
+    <div className="fixed inset-0 bg-black -z-10 overflow-hidden pointer-events-none">
       {blobs.map((blob, i) => (
         <motion.div
           key={i}
